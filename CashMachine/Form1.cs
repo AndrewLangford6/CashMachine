@@ -46,22 +46,9 @@ namespace CashMachine
         private void Form1_Load(object sender, EventArgs e)
         {
 
-           
-        for (mrgX = 607; mrgX >= 307; mrgX = mrgX - 2)
-        {
-            Point mrg = new Point(mrgX, 93);
-            this.Refresh();
-            Thread.Sleep(10);
         }
 
-          //  mrgX = mrg.LocationX;
-        
-        }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void buyButton(object sender, EventArgs e)
         {

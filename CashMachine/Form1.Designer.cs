@@ -134,7 +134,7 @@
             this.mrg.Name = "mrg";
             this.mrg.Size = new System.Drawing.Size(756, 484);
             this.mrg.TabIndex = 8;
-            this.mrg.Click += new System.EventHandler(this.label1_Click);
+
             // 
             // buy
             // 
