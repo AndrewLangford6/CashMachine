@@ -134,7 +134,6 @@
             this.mrg.Name = "mrg";
             this.mrg.Size = new System.Drawing.Size(756, 484);
             this.mrg.TabIndex = 8;
-
             // 
             // buy
             // 
@@ -195,7 +194,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BackgroundImage = global::CashMachine.Properties.Resources.murrrr;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(611, 477);
             this.Controls.Add(this.newOrder);
             this.Controls.Add(this.confirm);

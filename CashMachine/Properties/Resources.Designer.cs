@@ -61,12 +61,11 @@ namespace CashMachine.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.Drawing.Bitmap murrrr {
+        internal static System.IO.UnmanagedMemoryStream cash {
             get {
-                object obj = ResourceManager.GetObject("murrrr", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetStream("cash", resourceCulture);
             }
         }
     }
