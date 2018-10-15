@@ -132,23 +132,6 @@ namespace CashMachine
 
             Graphics g = this.CreateGraphics();
 
-            stickCount = Convert.ToInt16(p1UpDown.Value);
-            totalP1 = STICK * stickCount;
-
-            leafCount = Convert.ToInt16(p2UpDown.Value);
-            totalP2 = LEAF * leafCount;
-
-            shellCount = Convert.ToInt16(p3UpDown.Value);
-            totalP3 = SHELL * shellCount;
-
-            rockCount = Convert.ToInt16(p4UpDown.Value);
-            totalP4 = ROCK * rockCount;
-
-            totalP = totalP1 + totalP2 + totalP3 + totalP4;
-            totalp_HST = totalP * HST;
-
-
-
             try
             {
                 // display tendered and change
