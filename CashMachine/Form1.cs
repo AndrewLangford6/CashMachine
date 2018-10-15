@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
 using System.Media;
-
+/// ANDREW LANGFORD
+/// functioning cash machine
+/// 15/10/18
 namespace CashMachine
 {
     public partial class Form1 : Form
