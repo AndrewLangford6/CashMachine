@@ -56,16 +56,16 @@ namespace CashMachine
 
             player1.Play();
 
-            stickCount = Convert.ToInt16(p1UpDown.Value);
+            stickCount = Convert.ToInt16(stickUpDown.Value);
             totalP1 = STICK * stickCount;
 
-            leafCount = Convert.ToInt16(p2UpDown.Value);
+            leafCount = Convert.ToInt16(leafUpDown.Value);
             totalP2 = LEAF * leafCount;
 
-            shellCount = Convert.ToInt16(p3UpDown.Value);
+            shellCount = Convert.ToInt16(shellUpDown.Value);
             totalP3 = SHELL * shellCount;
 
-            rockCount = Convert.ToInt16(p4UpDown.Value);
+            rockCount = Convert.ToInt16(rockUpDown.Value);
             totalP4 = ROCK * rockCount;
 
             totalP = totalP1 + totalP2 + totalP3 + totalP4;
@@ -110,7 +110,7 @@ namespace CashMachine
                 , Text, Fill, x + 65, y + 70);
 
                 amountTendered.Visible = false;
-                tInput.Visible = false;
+                tenderedInput.Visible = false;
                 confirm.Visible = false;
             }
 
@@ -118,7 +118,7 @@ namespace CashMachine
             {
                 //enter amount of gp buttons appear
                 amountTendered.Visible = true;
-                tInput.Visible = true;
+                tenderedInput.Visible = true;
                 confirm.Visible = true;
             }
 
@@ -135,7 +135,7 @@ namespace CashMachine
             try
             {
                 // display tendered and change
-                amount = Convert.ToInt16(tInput.Text);
+                amount = Convert.ToInt16(tenderedInput.Text);
 
                 change = amount - totalp_HST;
                 sChange = change * 10;
@@ -261,14 +261,14 @@ namespace CashMachine
             rockCount = 0;
             shellCount = 0;
 
-            p1UpDown.Value = 0;
-            p2UpDown.Value = 0;
-            p3UpDown.Value = 0;
-            p4UpDown.Value = 0;
-            tInput.Text = "";
+            stickUpDown.Value = 0;
+            leafUpDown.Value = 0;
+            shellUpDown.Value = 0;
+            rockUpDown.Value = 0;
+            tenderedInput.Text = "";
 
             amountTendered.Visible = false;
-            tInput.Visible = false;
+            tenderedInput.Visible = false;
             confirm.Visible = false;
             this.Refresh();
         }

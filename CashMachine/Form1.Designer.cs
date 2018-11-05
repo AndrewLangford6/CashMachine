@@ -29,101 +29,101 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.p1UpDown = new System.Windows.Forms.NumericUpDown();
-            this.p2UpDown = new System.Windows.Forms.NumericUpDown();
-            this.p3UpDown = new System.Windows.Forms.NumericUpDown();
-            this.p4UpDown = new System.Windows.Forms.NumericUpDown();
-            this.p4 = new System.Windows.Forms.Label();
-            this.p3 = new System.Windows.Forms.Label();
-            this.p2 = new System.Windows.Forms.Label();
-            this.p1 = new System.Windows.Forms.Label();
+            this.stickUpDown = new System.Windows.Forms.NumericUpDown();
+            this.leafUpDown = new System.Windows.Forms.NumericUpDown();
+            this.shellUpDown = new System.Windows.Forms.NumericUpDown();
+            this.rockUpDown = new System.Windows.Forms.NumericUpDown();
+            this.rockTag = new System.Windows.Forms.Label();
+            this.shellTag = new System.Windows.Forms.Label();
+            this.leafTag = new System.Windows.Forms.Label();
+            this.stickTag = new System.Windows.Forms.Label();
             this.mrg = new System.Windows.Forms.Label();
             this.buy = new System.Windows.Forms.Button();
-            this.tInput = new System.Windows.Forms.TextBox();
+            this.tenderedInput = new System.Windows.Forms.TextBox();
             this.amountTendered = new System.Windows.Forms.Label();
             this.confirm = new System.Windows.Forms.Button();
             this.newOrder = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.p1UpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.p2UpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.p3UpDown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.p4UpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stickUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.leafUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shellUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rockUpDown)).BeginInit();
             this.SuspendLayout();
             // 
-            // p1UpDown
+            // stickUpDown
             // 
-            this.p1UpDown.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.p1UpDown.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p1UpDown.Location = new System.Drawing.Point(137, 58);
-            this.p1UpDown.Name = "p1UpDown";
-            this.p1UpDown.Size = new System.Drawing.Size(62, 23);
-            this.p1UpDown.TabIndex = 0;
+            this.stickUpDown.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.stickUpDown.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stickUpDown.Location = new System.Drawing.Point(137, 58);
+            this.stickUpDown.Name = "stickUpDown";
+            this.stickUpDown.Size = new System.Drawing.Size(62, 23);
+            this.stickUpDown.TabIndex = 0;
             // 
-            // p2UpDown
+            // leafUpDown
             // 
-            this.p2UpDown.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.p2UpDown.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p2UpDown.Location = new System.Drawing.Point(137, 84);
-            this.p2UpDown.Name = "p2UpDown";
-            this.p2UpDown.Size = new System.Drawing.Size(62, 23);
-            this.p2UpDown.TabIndex = 1;
+            this.leafUpDown.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.leafUpDown.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.leafUpDown.Location = new System.Drawing.Point(137, 84);
+            this.leafUpDown.Name = "leafUpDown";
+            this.leafUpDown.Size = new System.Drawing.Size(62, 23);
+            this.leafUpDown.TabIndex = 1;
             // 
-            // p3UpDown
+            // shellUpDown
             // 
-            this.p3UpDown.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.p3UpDown.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p3UpDown.Location = new System.Drawing.Point(137, 110);
-            this.p3UpDown.Name = "p3UpDown";
-            this.p3UpDown.Size = new System.Drawing.Size(62, 23);
-            this.p3UpDown.TabIndex = 2;
+            this.shellUpDown.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.shellUpDown.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.shellUpDown.Location = new System.Drawing.Point(137, 110);
+            this.shellUpDown.Name = "shellUpDown";
+            this.shellUpDown.Size = new System.Drawing.Size(62, 23);
+            this.shellUpDown.TabIndex = 2;
             // 
-            // p4UpDown
+            // rockUpDown
             // 
-            this.p4UpDown.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.p4UpDown.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p4UpDown.Location = new System.Drawing.Point(137, 137);
-            this.p4UpDown.Name = "p4UpDown";
-            this.p4UpDown.Size = new System.Drawing.Size(62, 23);
-            this.p4UpDown.TabIndex = 3;
+            this.rockUpDown.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rockUpDown.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rockUpDown.Location = new System.Drawing.Point(137, 137);
+            this.rockUpDown.Name = "rockUpDown";
+            this.rockUpDown.Size = new System.Drawing.Size(62, 23);
+            this.rockUpDown.TabIndex = 3;
             // 
-            // p4
+            // rockTag
             // 
-            this.p4.AutoSize = true;
-            this.p4.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p4.Location = new System.Drawing.Point(22, 139);
-            this.p4.Name = "p4";
-            this.p4.Size = new System.Drawing.Size(32, 15);
-            this.p4.TabIndex = 4;
-            this.p4.Text = "Rock";
+            this.rockTag.AutoSize = true;
+            this.rockTag.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rockTag.Location = new System.Drawing.Point(22, 139);
+            this.rockTag.Name = "rockTag";
+            this.rockTag.Size = new System.Drawing.Size(32, 15);
+            this.rockTag.TabIndex = 4;
+            this.rockTag.Text = "Rock";
             // 
-            // p3
+            // shellTag
             // 
-            this.p3.AutoSize = true;
-            this.p3.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p3.Location = new System.Drawing.Point(22, 112);
-            this.p3.Name = "p3";
-            this.p3.Size = new System.Drawing.Size(38, 15);
-            this.p3.TabIndex = 5;
-            this.p3.Text = "Shells";
+            this.shellTag.AutoSize = true;
+            this.shellTag.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.shellTag.Location = new System.Drawing.Point(22, 112);
+            this.shellTag.Name = "shellTag";
+            this.shellTag.Size = new System.Drawing.Size(38, 15);
+            this.shellTag.TabIndex = 5;
+            this.shellTag.Text = "Shells";
             // 
-            // p2
+            // leafTag
             // 
-            this.p2.AutoSize = true;
-            this.p2.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p2.Location = new System.Drawing.Point(22, 86);
-            this.p2.Name = "p2";
-            this.p2.Size = new System.Drawing.Size(31, 15);
-            this.p2.TabIndex = 6;
-            this.p2.Text = "Leaf";
+            this.leafTag.AutoSize = true;
+            this.leafTag.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.leafTag.Location = new System.Drawing.Point(22, 86);
+            this.leafTag.Name = "leafTag";
+            this.leafTag.Size = new System.Drawing.Size(31, 15);
+            this.leafTag.TabIndex = 6;
+            this.leafTag.Text = "Leaf";
             // 
-            // p1
+            // stickTag
             // 
-            this.p1.AutoSize = true;
-            this.p1.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p1.Location = new System.Drawing.Point(22, 60);
-            this.p1.Name = "p1";
-            this.p1.Size = new System.Drawing.Size(35, 15);
-            this.p1.TabIndex = 7;
-            this.p1.Text = "Stick";
+            this.stickTag.AutoSize = true;
+            this.stickTag.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stickTag.Location = new System.Drawing.Point(22, 60);
+            this.stickTag.Name = "stickTag";
+            this.stickTag.Size = new System.Drawing.Size(35, 15);
+            this.stickTag.TabIndex = 7;
+            this.stickTag.Text = "Stick";
             // 
             // mrg
             // 
@@ -146,14 +146,14 @@
             this.buy.UseVisualStyleBackColor = true;
             this.buy.Click += new System.EventHandler(this.buyButton);
             // 
-            // tInput
+            // tenderedInput
             // 
-            this.tInput.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tInput.Location = new System.Drawing.Point(24, 238);
-            this.tInput.Name = "tInput";
-            this.tInput.Size = new System.Drawing.Size(121, 23);
-            this.tInput.TabIndex = 10;
-            this.tInput.Visible = false;
+            this.tenderedInput.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tenderedInput.Location = new System.Drawing.Point(24, 238);
+            this.tenderedInput.Name = "tenderedInput";
+            this.tenderedInput.Size = new System.Drawing.Size(121, 23);
+            this.tenderedInput.TabIndex = 10;
+            this.tenderedInput.Visible = false;
             // 
             // amountTendered
             // 
@@ -199,24 +199,24 @@
             this.Controls.Add(this.newOrder);
             this.Controls.Add(this.confirm);
             this.Controls.Add(this.amountTendered);
-            this.Controls.Add(this.tInput);
+            this.Controls.Add(this.tenderedInput);
             this.Controls.Add(this.buy);
             this.Controls.Add(this.mrg);
-            this.Controls.Add(this.p1);
-            this.Controls.Add(this.p2);
-            this.Controls.Add(this.p3);
-            this.Controls.Add(this.p4);
-            this.Controls.Add(this.p4UpDown);
-            this.Controls.Add(this.p3UpDown);
-            this.Controls.Add(this.p2UpDown);
-            this.Controls.Add(this.p1UpDown);
+            this.Controls.Add(this.stickTag);
+            this.Controls.Add(this.leafTag);
+            this.Controls.Add(this.shellTag);
+            this.Controls.Add(this.rockTag);
+            this.Controls.Add(this.rockUpDown);
+            this.Controls.Add(this.shellUpDown);
+            this.Controls.Add(this.leafUpDown);
+            this.Controls.Add(this.stickUpDown);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.p1UpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.p2UpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.p3UpDown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.p4UpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stickUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.leafUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shellUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rockUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,17 +224,17 @@
 
         #endregion
 
-        private System.Windows.Forms.NumericUpDown p1UpDown;
-        private System.Windows.Forms.NumericUpDown p2UpDown;
-        private System.Windows.Forms.NumericUpDown p3UpDown;
-        private System.Windows.Forms.NumericUpDown p4UpDown;
-        private System.Windows.Forms.Label p4;
-        private System.Windows.Forms.Label p3;
-        private System.Windows.Forms.Label p2;
-        private System.Windows.Forms.Label p1;
+        private System.Windows.Forms.NumericUpDown stickUpDown;
+        private System.Windows.Forms.NumericUpDown leafUpDown;
+        private System.Windows.Forms.NumericUpDown shellUpDown;
+        private System.Windows.Forms.NumericUpDown rockUpDown;
+        private System.Windows.Forms.Label rockTag;
+        private System.Windows.Forms.Label shellTag;
+        private System.Windows.Forms.Label leafTag;
+        private System.Windows.Forms.Label stickTag;
         private System.Windows.Forms.Label mrg;
         private System.Windows.Forms.Button buy;
-        private System.Windows.Forms.TextBox tInput;
+        private System.Windows.Forms.TextBox tenderedInput;
         private System.Windows.Forms.Label amountTendered;
         private System.Windows.Forms.Button confirm;
         private System.Windows.Forms.Button newOrder;
